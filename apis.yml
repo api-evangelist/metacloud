@@ -1,7 +1,27 @@
 aid: metacloud
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/metacloud.png
 name: Metacloud
-description: Metacloud is a company surfaced as a portfolio company of canaan-partners and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Metacloud was an OpenStack-based private-cloud company founded in 2011 in
+  Pasadena, California by former infrastructure engineers from Yahoo! and
+  Ticketmaster. It let enterprises run production OpenStack private clouds on
+  their own hardware, fully operated as a managed service. Metacloud raised a
+  $10M Series A led by Canaan Partners (with Storm Ventures and AME Cloud
+  Ventures) and was acquired by Cisco in 2014, where it became Cisco Metapod
+  and later Cisco Metacloud before the product line was retired. There is no
+  independent Metacloud company or first-party developer API surface today; the
+  platform exposed standard OpenStack APIs rather than a proprietary API.
 url: https://raw.githubusercontent.com/api-evangelist/metacloud/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +29,31 @@ x-backed-by:
 - canaan-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: cisco
+x-acquired-year: 2014
+x-defunct: true
+x-defunct-note: >-
+  Acquired by Cisco in 2014 (Cisco Metapod / Cisco Metacloud); product line
+  since retired. No live independent domain or first-party API surface.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Cloud
+- Private Cloud
+- OpenStack
+- Infrastructure
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
