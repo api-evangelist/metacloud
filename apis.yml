@@ -36,7 +36,7 @@ x-defunct: true
 x-defunct-note: >-
   Acquired by Cisco in 2014 (Cisco Metapod / Cisco Metacloud); product line
   since retired. No live independent domain or first-party API surface.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 tags:
