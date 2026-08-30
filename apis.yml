@@ -68,3 +68,9 @@ x-enrichment:
   status: nochange
   artifacts_added: 0
   pass: local-v1
+common:
+- type: ParentCompany
+  url: https://apis.io/providers/cisco/
+  name: Cisco
+  x-relationship: acquired
+  x-evidence: "Metacloud raised a $10M Series A led by Canaan Partners (with Storm Ventures and AME Cloud Ventures) and was acquired by Cisco in 2014, where it became Cisco Metapod and later Cisco Metacloud before the product line was retired."
